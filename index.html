@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>saint toji</title>
+</head>
+<body>
+
+    <header>
+    <a href="#" class="logo">saint</a>
+    <button id="btnscroll" ><i class="fa-sharp fa-solid fa-circle-up"></i></button>
+
+
+    <button class="hide" id="open" >open</button>
+    <button id="close" >close</button>
+    
+    
+    <nav class="navbar">
+        <div class="container">
+        <a href="#home">home</a>
+        <a href="#services">servises</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
+        </div>
+    </nav>
+    
+    </header>
+
+    <section class="main">
+    <div>
+        <h2>hello , i'm muntadher <br /><span>story writer</span></h2>
+        <h3>i like to write orignal stories</h3>
+        <a href="#projects" class="main-btn">my stories</a>
+        <div class="social-icons">
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-solid fa-book"></i></a>
+        </div>
+      </div>
+      <div class="gallary">
+
+        <div class="photos">
+          <img onclick="mainphoto.src = this.src " src="imgs/11.jpg" alt="">
+          <img onclick="mainphoto.src = this.src " src="imgs/55.jpg" alt="">
+          <img onclick="mainphoto.src = this.src " src="imgs/33.jpg" alt="">
+          <img onclick="mainphoto.src = this.src " src="imgs/44.jpg" alt="">
+        </div>
+      </div>
+      <div class="mainphoto">
+        <img src="imgs/55.jpg" name = "mainphoto" alt="">
+      </div>
+    </section>
+
+    <section class="cards" id="servises">
+      <h2 class="title">servises</h2>
+
+      <div class="content">
+        <div class="card">
+          <div class="icon">
+            <i class="fa-regular fa-pen-to-square"></i>
+          </div>
+
+          <div class="gallary0">
+            <img class="img1" src="imgs/1.jpeg" alt="">
+          </div>
+
+          <div class="info">
+            <h3>writing stories</h3>
+            <p>
+              writting story , charctor creation , drama , romance , monsters ,
+              and events , charctors background , and everything in between.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="card">
+          <div class="icon"><i class="fa-solid fa-dungeon"></i></div>
+
+          <div class="info">
+            <h3>world building</h4>
+            <p>
+              create mind blowing vast worlds and places filled with exiting
+              feels of exploring and deapth beaund imagination
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
